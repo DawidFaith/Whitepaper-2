@@ -156,6 +156,7 @@ export const roadmapTimelineTexts: Record<string, RoadmapTimelineTexts> = {
           "First large-scale marketing campaign",
           "Community growth from 774 to 5,000+ followers"
         ]
+      },
       {
         title: "Expansion",
         description: "Expansion of platform features and first international expansion.",
@@ -165,7 +166,6 @@ export const roadmapTimelineTexts: Record<string, RoadmapTimelineTexts> = {
           "Partnerships with other artists",
           "NFT integration (pilot project)"
         ]
-      },]
       },
       {
         title: "Ecosystem",
