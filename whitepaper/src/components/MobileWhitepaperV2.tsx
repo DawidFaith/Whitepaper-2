@@ -356,39 +356,79 @@ const MobileWhitepaperV2: React.FC<MobileWhitepaperV2Props> = ({
       {/* Hamburger Navigation Overlay */}
       <AnimatePresence>
         {showNav && (
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.3 }}
-            className="fixed inset-0 z-[100] bg-black/70 backdrop-blur-sm flex flex-col"
-          >
-            <div className="flex items-center justify-between px-6 py-4">
-              <span className="text-white text-lg font-bold">{currentNavLabels.navigation}</span>
-              <button
-                onClick={() => setShowNav(false)}
-                className="p-2 rounded-full bg-white/10 hover:bg-white/20 text-white"
-                aria-label={currentNavLabels.closeNav}
-              >
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-7 h-7">
-                  <line x1="18" y1="6" x2="6" y2="18" />
-                  <line x1="6" y1="6" x2="18" y2="18" />
-                </svg>
-              </button>
-            </div>
-            <nav className="flex-1 flex flex-col items-center justify-center gap-6">
-              {sections.map((section) => (
+          <>
+            {/* Backdrop */}
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.3 }}
+              className="fixed inset-0 z-[100] bg-black/80 backdrop-blur-sm"
+              onClick={() => setShowNav(false)}
+            />
+            
+            {/* Slide-in Menu */}
+            <motion.div
+              initial={{ x: '-100%' }}
+              animate={{ x: 0 }}
+              exit={{ x: '-100%' }}
+              transition={{ type: 'spring', damping: 25, stiffness: 200 }}
+              className="fixed left-0 top-0 bottom-0 z-[101] w-72 bg-gradient-to-b from-black/95 to-gray-900/95 backdrop-blur-xl border-r border-white/10 shadow-2xl flex flex-col"
+            >
+              {/* Header */}
+              <div className="flex items-center justify-between px-5 py-4 border-b border-white/10">
+                <span className="text-white text-base font-semibold tracking-wide">{currentNavLabels.navigation}</span>
                 <button
-                  key={section.id}
-                  onClick={() => scrollToSection(section.id)}
-                  className={`w-64 max-w-[90vw] py-4 px-6 rounded-2xl text-lg font-semibold transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-400 mb-2 shadow-lg
-                    ${currentSection === section.id ? 'bg-gradient-to-r from-blue-500 to-purple-500 text-white scale-105' : 'bg-white/10 text-white/80 hover:bg-white/20'}`}
+                  onClick={() => setShowNav(false)}
+                  className="p-1.5 rounded-lg bg-white/5 hover:bg-white/10 text-white transition-colors"
+                  aria-label={currentNavLabels.closeNav}
                 >
-                  {section.title}
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18" />
+                    <line x1="6" y1="6" x2="18" y2="18" />
+                  </svg>
                 </button>
-              ))}
-            </nav>
-          </motion.div>
+              </div>
+              
+              {/* Navigation Items */}
+              <nav className="flex-1 overflow-y-auto py-4 px-3">
+                <div className="space-y-1.5">
+                  {sections.map((section, index) => (
+                    <motion.button
+                      key={section.id}
+                      initial={{ opacity: 0, x: -20 }}
+                      animate={{ opacity: 1, x: 0 }}
+                      transition={{ delay: index * 0.05 }}
+                      onClick={() => scrollToSection(section.id)}
+                      className={`w-full flex items-center gap-3 py-3 px-4 rounded-xl text-sm font-medium transition-all duration-200 
+                        ${currentSection === section.id 
+                          ? 'bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-white border border-blue-500/30 shadow-lg shadow-blue-500/10' 
+                          : 'text-gray-300 hover:bg-white/5 hover:text-white border border-transparent'
+                        }`}
+                    >
+                      <span className={`text-lg ${currentSection === section.id ? 'scale-110' : ''} transition-transform`}>
+                        {section.icon}
+                      </span>
+                      <span className="flex-1 text-left">{section.title}</span>
+                      {currentSection === section.id && (
+                        <motion.div
+                          layoutId="activeIndicator"
+                          className="w-1.5 h-1.5 rounded-full bg-blue-400"
+                        />
+                      )}
+                    </motion.button>
+                  ))}
+                </div>
+              </nav>
+              
+              {/* Footer */}
+              <div className="px-5 py-4 border-t border-white/10">
+                <div className="text-center text-xs text-gray-500">
+                  D.FAITH Ecosystem
+                </div>
+              </div>
+            </motion.div>
+          </>
         )}
       </AnimatePresence>
 
