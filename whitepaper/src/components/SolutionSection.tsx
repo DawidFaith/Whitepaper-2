@@ -188,6 +188,7 @@ const SolutionSection: React.FC<SolutionSectionProps> = ({ language }) => {
                   <motion.button 
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
+                    onClick={() => window.open('https://app.dawidfaith.de', '_blank')}
                     className="group relative px-8 py-4 bg-gradient-to-r from-cyan-500 to-emerald-500 text-white font-bold rounded-2xl shadow-lg"
                   >
                     <span className="relative flex items-center gap-3">
@@ -199,6 +200,7 @@ const SolutionSection: React.FC<SolutionSectionProps> = ({ language }) => {
                   <motion.button 
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
+                    onClick={() => window.open('https://app.dawidfaith.de', '_blank')}
                     className="group relative px-8 py-4 bg-gradient-to-r from-violet-500 to-pink-500 text-white font-bold rounded-2xl shadow-lg"
                   >
                     <span className="relative flex items-center gap-3">

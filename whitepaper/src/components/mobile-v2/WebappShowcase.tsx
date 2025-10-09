@@ -204,7 +204,10 @@ const WebappShowcase: React.FC<WebappShowcaseProps> = ({
       </div>
       {/* Call-to-Action */}
       <div className="w-full flex justify-center mt-2 mb-4">
-        <button className="px-6 py-3 rounded-xl bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold shadow-lg hover:scale-105 transition-transform text-base flex items-center gap-2 animate-pulse">
+        <button 
+          onClick={() => window.open('https://app.dawidfaith.de', '_blank')}
+          className="px-6 py-3 rounded-xl bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold shadow-lg hover:scale-105 transition-transform text-base flex items-center gap-2 animate-pulse"
+        >
           {texts.callToAction.buttonText} <FaArrowRight className="text-base" />
         </button>
       </div>

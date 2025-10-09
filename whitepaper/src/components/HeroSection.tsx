@@ -157,6 +157,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onScrollToNext, language }) =
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
+                onClick={() => window.open('https://app.dawidfaith.de', '_blank')}
                 className="bg-gradient-to-r from-amber-400 to-yellow-500 text-black font-bold py-4 px-8 rounded-xl flex items-center justify-center gap-3 hover:opacity-90 transition-opacity"
               >
                 <FaPlay className="text-sm" />

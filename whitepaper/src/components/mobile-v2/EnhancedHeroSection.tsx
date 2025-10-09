@@ -302,6 +302,7 @@ const EnhancedHeroSection: React.FC<EnhancedHeroSectionProps> = ({
           <motion.button
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
+            onClick={() => window.open('https://app.dawidfaith.de', '_blank')}
             className="w-full bg-gradient-to-r from-blue-500 to-purple-500 rounded-2xl p-4 font-bold text-white shadow-lg hover:shadow-xl transition-all duration-300"
           >
             <div className="flex items-center justify-center gap-2">
@@ -313,6 +314,12 @@ const EnhancedHeroSection: React.FC<EnhancedHeroSectionProps> = ({
           <motion.button
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
+            onClick={() => {
+              const nextSection = document.querySelector('[data-section="problem"]')
+              if (nextSection) {
+                nextSection.scrollIntoView({ behavior: 'smooth' })
+              }
+            }}
             className="w-full backdrop-blur-xl bg-white/10 border border-white/20 rounded-2xl p-4 font-bold text-white hover:bg-white/20 transition-all duration-300"
           >
             <div className="flex items-center justify-center gap-2">

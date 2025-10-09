@@ -79,6 +79,7 @@ export const roadmapTimelineTexts: Record<string, RoadmapTimelineTexts> = {
         description: "Ausbau der Plattform-Features und erste internationale Expansion.",
         milestones: [
           "Spotify API Integration für Stream-Rewards",
+          "YouTube API Integration für Video-Engagement",
           "Partnerships mit anderen Künstlern",
           "NFT-Integration (Pilotprojekt)"
         ]
@@ -155,15 +156,16 @@ export const roadmapTimelineTexts: Record<string, RoadmapTimelineTexts> = {
           "First large-scale marketing campaign",
           "Community growth from 774 to 5,000+ followers"
         ]
-      },
       {
         title: "Expansion",
         description: "Expansion of platform features and first international expansion.",
         milestones: [
           "Spotify API integration for streaming rewards",
+          "YouTube API integration for video engagement",
           "Partnerships with other artists",
           "NFT integration (pilot project)"
         ]
+      },]
       },
       {
         title: "Ecosystem",

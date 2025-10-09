@@ -120,6 +120,7 @@ const WhitepaperPage = () => {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
+                onClick={() => window.open('https://app.dawidfaith.de', '_blank')}
                 className="bg-gradient-to-r from-amber-400 to-yellow-500 text-black font-bold py-4 px-8 rounded-xl flex items-center justify-center gap-3 hover:opacity-90 transition-opacity"
               >
                 <FaRocket className="text-xl" />
@@ -131,6 +132,7 @@ const WhitepaperPage = () => {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
+                onClick={() => window.open('https://www.instagram.com/dawidfaith', '_blank')}
                 className="border border-amber-400 text-amber-400 font-bold py-4 px-8 rounded-xl flex items-center justify-center gap-3 hover:bg-amber-400/10 transition-colors"
               >
                 <FaInstagram className="text-xl" />
@@ -163,7 +165,7 @@ const WhitepaperPage = () => {
               <a href="mailto:dawid.faith@gmail.com" className="text-zinc-400 hover:text-white transition-colors">
                 Kontakt
               </a>
-              <a href="#" className="text-zinc-400 hover:text-white transition-colors">
+              <a href="https://www.instagram.com/dawidfaith" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-white transition-colors">
                 <FaInstagram className="text-xl" />
               </a>
             </div>
