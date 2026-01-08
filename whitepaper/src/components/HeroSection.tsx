@@ -197,7 +197,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onScrollToNext, language }) =
                 className="relative z-10"
               >
                 <Image
-                  src="/dawid-faith-photo.jpg"
+                  src="/dawid-faith-still.jpg"
                   alt="Dawid Faith"
                   width={500}
                   height={600}

@@ -26,7 +26,7 @@ const TeamSectionWeb: React.FC<TeamSectionWebProps> = ({ language }) => {
     name: t.member.name,
     role: t.member.role, 
     description: t.member.description,
-    image: "/dawid-faith-photo.jpg",
+    image: "/dawid-faith-still.jpg",
     skills: [
       { skill: t.member.skills[0], icon: <FaEthereum />, color: "from-blue-500 to-cyan-500" },
       { skill: t.member.skills[1], icon: <FaMusic />, color: "from-purple-500 to-pink-500" },

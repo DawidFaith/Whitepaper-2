@@ -206,7 +206,7 @@ const EnhancedHeroSection: React.FC<EnhancedHeroSectionProps> = ({
               className="relative"
             >
               <Image
-                src="/dawid-faith-photo.jpg"
+                src="/dawid-faith-still.jpg"
                 alt="Dawid Faith"
                 width={120}
                 height={120}
