@@ -159,7 +159,7 @@ const WhitepaperPage = () => {
               </div>
             </div>
             <div className="flex items-center gap-6">
-              <a href="https://www.dawidfaith.com" className="text-zinc-400 hover:text-white transition-colors">
+              <a href="https://www.dawidfaith.de" className="text-zinc-400 hover:text-white transition-colors">
                 Website
               </a>
               <a href="mailto:dawid.faith@gmail.com" className="text-zinc-400 hover:text-white transition-colors">
