@@ -33,7 +33,7 @@ const ProblemOverview: React.FC<ProblemOverviewProps> = ({ language }) => {
       >
         <div className="flex items-center gap-6 mb-6">
           <Image
-            src="/dawid-faith-photo.jpg"
+            src="/Dawid Faith.jpg"
             alt="Dawid Faith"
             width={80}
             height={80}

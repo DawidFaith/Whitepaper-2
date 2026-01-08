@@ -29,7 +29,7 @@ const TeamSectionV3: React.FC = () => {
     name: texts.teamMember.name,
     role: texts.teamMember.role, 
     description: texts.teamMember.description,
-    image: "/dawid-faith-still.jpg",
+    image: "/Dawid Faith.jpg",
     skills: [
       { skill: texts.teamMember.skills[0], icon: <FaEthereum />, color: "from-blue-500 to-cyan-500" },
       { skill: texts.teamMember.skills[1], icon: <FaMusic />, color: "from-purple-500 to-pink-500" },

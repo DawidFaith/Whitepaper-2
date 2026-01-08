@@ -804,7 +804,7 @@ const ProblemSectionV2: React.FC<{ language?: 'de' | 'en' | 'pl' }> = ({ languag
         <div className="flex items-center gap-4 mb-4">
           <div className="relative">
             <Image
-              src="/dawid-faith-photo.jpg"
+              src="/Dawid Faith.jpg"
               alt="Dawid Faith"
               width={60}
               height={60}
