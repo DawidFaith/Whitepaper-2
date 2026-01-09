@@ -80,7 +80,7 @@ const RoadmapTimelineV2: React.FC = () => {
       title: texts.phases[2].title,
       period: "Q2-Q3 2026",
       status: "planned",
-      progress: 0,
+      progress: 25,
       statusIcon: <FaClipboardList />,
       statusText: texts.statusTexts.planned,
       color: "from-orange-500 to-red-500",

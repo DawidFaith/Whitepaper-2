@@ -82,7 +82,7 @@ const RoadmapTimelineWeb: React.FC<RoadmapTimelineWebProps> = ({ language }) => 
       title: t.phases[2].title,
       period: "Q2-Q3 2026",
       status: "planned",
-      progress: 0,
+      progress: 25,
       statusIcon: <FaClipboardList />,
       statusText: t.statusLabels.planned,
       color: "from-orange-500 to-red-500",
