@@ -89,8 +89,9 @@ const RoadmapTimelineV2: React.FC = () => {
       description: texts.phases[2].description,
       milestones: [
         { text: texts.phases[2].milestones[0], completed: false, icon: <FaMusic /> },
-        { text: texts.phases[2].milestones[1], completed: false, icon: <FaUsers /> },
-        { text: texts.phases[2].milestones[2], completed: false, icon: <FaCrown /> }
+        { text: texts.phases[2].milestones[1], completed: true, icon: <FaPlayCircle /> },
+        { text: texts.phases[2].milestones[2], completed: false, icon: <FaUsers /> },
+        { text: texts.phases[2].milestones[3], completed: false, icon: <FaCrown /> }
       ]
     },
     {

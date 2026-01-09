@@ -91,8 +91,9 @@ const RoadmapTimelineWeb: React.FC<RoadmapTimelineWebProps> = ({ language }) => 
       description: t.phases[2].description,
       milestones: [
         { text: t.phases[2].milestones[0], completed: false, icon: <FaMusic /> },
-        { text: t.phases[2].milestones[1], completed: false, icon: <FaUsers /> },
-        { text: t.phases[2].milestones[2], completed: false, icon: <FaCrown /> }
+        { text: t.phases[2].milestones[1], completed: true, icon: <FaPlayCircle /> },
+        { text: t.phases[2].milestones[2], completed: false, icon: <FaUsers /> },
+        { text: t.phases[2].milestones[3], completed: false, icon: <FaCrown /> }
       ]
     },
     {

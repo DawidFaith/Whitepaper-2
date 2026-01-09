@@ -63,6 +63,7 @@ export const roadmapTimelineWebTranslations: Record<'de' | 'en' | 'pl', RoadmapT
         description: 'Ausbau der Plattform-Features und erste internationale Expansion.',
         milestones: [
           'Spotify API Integration für Stream-Rewards',
+          'YouTube API Integration für Video-Engagement',
           'Partnerships mit anderen Künstlern',
           'NFT-Integration (Pilotprojekt)',
         ],
@@ -122,6 +123,7 @@ export const roadmapTimelineWebTranslations: Record<'de' | 'en' | 'pl', RoadmapT
         description: 'Platform feature expansion and initial international expansion.',
         milestones: [
           'Spotify API integration for stream rewards',
+          'YouTube API integration for video engagement',
           'Partnerships with other artists',
           'NFT integration (pilot project)',
         ],
@@ -181,6 +183,7 @@ export const roadmapTimelineWebTranslations: Record<'de' | 'en' | 'pl', RoadmapT
         description: 'Rozszerzenie funkcji platformy i początkowa ekspansja międzynarodowa.',
         milestones: [
           'Integracja API Spotify dla nagród za streaming',
+          'Integracja YouTube API dla zaangażowania wideo',
           'Partnerstwa z innymi artystami',
           'Integracja NFT (projekt pilotażowy)',
         ],
