@@ -156,6 +156,16 @@ const RoadmapTimelineWeb: React.FC<RoadmapTimelineWebProps> = ({ language }) => 
                   {phase.statusText}
                 </span>
                 <span className="ml-2 text-xs text-zinc-400 font-mono">{phase.progress}%</span>
+
+                {/* Progress bar (desktop) */}
+                <div className="mt-3 w-full bg-gray-700 rounded-full h-2 overflow-hidden">
+                  <motion.div
+                    initial={{ width: 0 }}
+                    animate={{ width: `${phase.progress}%` }}
+                    transition={{ duration: 0.9 }}
+                    className={`h-2 bg-gradient-to-r ${phase.color} rounded-full`}
+                  />
+                </div>
               </div>
               <p className="text-zinc-200 text-base mb-4 min-h-[48px]">{phase.description}</p>
               <AnimatePresence>
