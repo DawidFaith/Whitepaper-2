@@ -6,7 +6,7 @@ import { useLanguage } from '../context/LanguageContext';
 import { whitepaperContent } from '../content/whitepaper';
 import LanguageSwitcher from '../components/LanguageSwitcher';
 
-const APP_URL = 'https://www.dawidfaith.com';
+const APP_URL = 'https://www.dawidfaith.de';
 const INSTAGRAM_URL = 'https://www.instagram.com/dawidfaith';
 
 function Section({
@@ -229,7 +229,7 @@ export default function WhitepaperPage() {
         <Section id="team" heading={c.team.heading}>
           <div className="flex items-center gap-4">
             <Image
-              src="/dawid-faith-photo.jpg"
+              src="/Dawid Faith.jpg"
               alt={c.team.name}
               width={64}
               height={64}
