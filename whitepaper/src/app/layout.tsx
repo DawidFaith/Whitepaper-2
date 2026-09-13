@@ -14,12 +14,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "D.FAITH Ökosystem - Revolutionäres Fan-Engagement Whitepaper",
-  description: "Entdecken Sie das innovative D.FAITH Ökosystem: Blockchain-basierte Fan-Belohnungen, Dual-Token-System und revolutionäres Social Media Engagement für Künstler.",
-  keywords: "D.FAITH, D.INVEST, Blockchain, Fan-Engagement, Token, Staking, Dawid Faith, Base Chain",
+  title: "D.FAITH Whitepaper — Fan-Belohnungen von Dawid Faith",
+  description: "D.FAITH belohnt Fans direkt für ihre Unterstützung auf Social Media mit einem eigenen Token auf Solana.",
+  keywords: "D.FAITH, Solana, Fan-Engagement, Token, Dawid Faith, Quests",
   openGraph: {
-    title: "D.FAITH Ökosystem Whitepaper",
-    description: "Revolutionäres Fan-Engagement durch Blockchain-Technologie",
+    title: "D.FAITH Whitepaper",
+    description: "Ein Fan-Belohnungssystem auf der Blockchain — von Dawid Faith, für seine Fans.",
     type: "website",
   }
 };
