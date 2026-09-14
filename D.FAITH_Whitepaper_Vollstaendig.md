@@ -73,7 +73,7 @@ Mehr Belohnung führt zu mehr Engagement, mehr Engagement zu mehr Reichweite, me
 | **Typ** | Utility-Token (reiner Nutz-Token, kein Anlageprodukt) |
 | **Funktion** | Belohnung für Fan-Engagement, einlösbar im Shop, handelbar |
 
-D.FAITH ist bewusst **kein Investment-Produkt** und verspricht keine Rendite. Es ist eine Belohnungswährung: Man verdient sie durch aktive Unterstützung des Künstlers und gibt sie für Dinge aus, die einem etwas wert sind.
+D.FAITH ist bewusst **kein Investment-Produkt** und verspricht keine Rendite. Es ist eine Belohnungswährung: Man verdient sie durch aktive Unterstützung des Künstlers und gibt sie für Dinge aus, die einem etwas wert sind. D.FAITH dient allein dazu, treuen Fans für ihr Engagement zu danken und ihnen einen echten Anteil am Projekt zu geben — er wird nicht verkauft, um Musikproduktion oder andere Kosten zu finanzieren.
 
 ### Wofür kann man D.FAITH nutzen?
 - **Ausgeben** im D.FAITH-Shop (exklusive Inhalte, digitale Sammelstücke, Vorteile für Fans)
@@ -86,10 +86,9 @@ D.FAITH ist bewusst **kein Investment-Produkt** und verspricht keine Rendite. Es
 
 | Kategorie | Anteil | Zweck |
 |---|---|---|
-| Fan-Rewards-Pool | 60 % | Wird über Zeit durch Quests an Fans ausgeschüttet |
+| Fan-Rewards-Pool | 80 % | Wird über Zeit durch Quests an treue Fans ausgeschüttet — der Großteil gehört den Fans |
 | Liquidität | 15 % | Sorgt für einen stabilen, handelbaren Markt |
-| Künstler / Team | 15 % | Finanziert Musikproduktion und Weiterentwicklung |
-| Reserve für weitere Künstler | 10 % | Für die spätere Öffnung der Plattform (siehe Kapitel 8) |
+| Reserve für weitere Künstler | 5 % | Für die spätere Öffnung der Plattform (siehe Kapitel 8) |
 
 Es gibt **kein zweites Investment-Token** (D.INVEST) und **kein Staking** — das Modell wurde bewusst vereinfacht, damit jeder es auf Anhieb versteht.
 

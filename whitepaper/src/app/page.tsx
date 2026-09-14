@@ -7,7 +7,11 @@ import { whitepaperContent } from '../content/whitepaper';
 import LanguageSwitcher from '../components/LanguageSwitcher';
 
 const APP_URL = 'https://www.dawidfaith.de';
-const INSTAGRAM_URL = 'https://www.instagram.com/dawidfaith';
+const INSTAGRAM_URLS: Record<'de' | 'en' | 'pl', string> = {
+  de: 'https://www.instagram.com/dawidfaith_germany',
+  en: 'https://www.instagram.com/dawidfaith_germany',
+  pl: 'https://www.instagram.com/dawidfaith_polska',
+};
 
 function Section({
   id,
@@ -70,7 +74,7 @@ export default function WhitepaperPage() {
               <FaExternalLinkAlt className="text-xs" />
             </a>
             <a
-              href={INSTAGRAM_URL}
+              href={INSTAGRAM_URLS[language]}
               className="inline-flex items-center gap-2 rounded-full border border-zinc-300 px-5 py-2.5 text-sm font-semibold text-zinc-700 transition-colors hover:border-zinc-900 hover:text-zinc-900"
             >
               <FaInstagram />
@@ -264,7 +268,7 @@ export default function WhitepaperPage() {
             <a href="mailto:dawid.faith@gmail.com" className="hover:text-zinc-900">
               {c.footer.contact}
             </a>
-            <a href={INSTAGRAM_URL} className="hover:text-zinc-900">
+            <a href={INSTAGRAM_URLS[language]} className="hover:text-zinc-900">
               <FaInstagram />
             </a>
           </div>

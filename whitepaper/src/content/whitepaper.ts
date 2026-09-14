@@ -111,7 +111,7 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
       subtitle:
         'Ein Fan-Belohnungssystem auf der Blockchain — von Dawid Faith, für seine Fans.',
       ctaPrimary: 'App öffnen',
-      ctaSecondary: '@dawidfaith folgen',
+      ctaSecondary: '@dawidfaith_germany folgen',
       version: 'Version 2.0 · September 2026',
     },
     summary: {
@@ -158,7 +158,8 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
       chain: 'Solana',
       typeLabel: 'Typ',
       type: 'Utility-Token',
-      typeNote: 'Ein reiner Nutz-Token, kein Anlageprodukt — es gibt kein Renditeversprechen.',
+      typeNote:
+        'Ein reiner Nutz-Token, kein Anlageprodukt — es gibt kein Renditeversprechen. D.FAITH dient allein dazu, treuen Fans für ihr Engagement zu danken und ihnen einen echten Anteil am Projekt zu geben. Er wird nicht verkauft, um Musikproduktion oder andere Kosten zu finanzieren.',
       usesHeading: 'Wofür kann man D.FAITH nutzen?',
       uses: [
         'Ausgeben im D.FAITH-Shop für exklusive Inhalte und digitale Sammelstücke',
@@ -168,10 +169,9 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
       tokenomicsHeading: 'Tokenomics',
       tokenomicsNote: 'Platzhalter — finale Werte werden vor dem Launch veröffentlicht.',
       tokenomicsRows: [
-        { label: 'Fan-Rewards-Pool', share: '60 %', purpose: 'Wird über Zeit durch Quests an Fans ausgeschüttet' },
+        { label: 'Fan-Rewards-Pool', share: '80 %', purpose: 'Wird über Zeit durch Quests an treue Fans ausgeschüttet — der Großteil gehört den Fans' },
         { label: 'Liquidität', share: '15 %', purpose: 'Sorgt für einen stabilen, handelbaren Markt' },
-        { label: 'Künstler / Team', share: '15 %', purpose: 'Finanziert Musikproduktion und Weiterentwicklung' },
-        { label: 'Reserve für weitere Künstler', share: '10 %', purpose: 'Für die spätere Öffnung der Plattform' },
+        { label: 'Reserve für weitere Künstler', share: '5 %', purpose: 'Für die spätere Öffnung der Plattform' },
       ],
       noSecondToken:
         'Es gibt kein zweites Investment-Token und kein Staking — das Modell wurde bewusst einfach gehalten.',
@@ -248,7 +248,7 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
       title: 'D.FAITH',
       subtitle: 'A blockchain-based fan reward system — by Dawid Faith, for his fans.',
       ctaPrimary: 'Open the app',
-      ctaSecondary: 'Follow @dawidfaith',
+      ctaSecondary: 'Follow @dawidfaith_germany',
       version: 'Version 2.0 · September 2026',
     },
     summary: {
@@ -295,7 +295,8 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
       chain: 'Solana',
       typeLabel: 'Type',
       type: 'Utility token',
-      typeNote: 'A pure utility token, not an investment product — no return is promised.',
+      typeNote:
+        'A pure utility token, not an investment product — no return is promised. D.FAITH exists solely to thank loyal fans for their engagement and give them a real share in the project. It is not sold to fund music production or other costs.',
       usesHeading: 'What can you use D.FAITH for?',
       uses: [
         'Spend it in the D.FAITH shop for exclusive content and digital collectibles',
@@ -305,10 +306,9 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
       tokenomicsHeading: 'Tokenomics',
       tokenomicsNote: 'Placeholder — final figures will be published before launch.',
       tokenomicsRows: [
-        { label: 'Fan rewards pool', share: '60%', purpose: 'Distributed to fans over time through quests' },
+        { label: 'Fan rewards pool', share: '80%', purpose: 'Distributed to loyal fans over time through quests — most of the token belongs to the fans' },
         { label: 'Liquidity', share: '15%', purpose: 'Keeps the market stable and tradeable' },
-        { label: 'Artist / team', share: '15%', purpose: 'Funds music production and further development' },
-        { label: 'Reserve for future artists', share: '10%', purpose: 'For the later opening of the platform' },
+        { label: 'Reserve for future artists', share: '5%', purpose: 'For the later opening of the platform' },
       ],
       noSecondToken: 'There is no second investment token and no staking — the model is kept deliberately simple.',
     },
@@ -384,7 +384,7 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
       title: 'D.FAITH',
       subtitle: 'System nagród dla fanów oparty na blockchainie — od Dawida Faitha, dla jego fanów.',
       ctaPrimary: 'Otwórz aplikację',
-      ctaSecondary: 'Obserwuj @dawidfaith',
+      ctaSecondary: 'Obserwuj @dawidfaith_polska',
       version: 'Wersja 2.0 · wrzesień 2026',
     },
     summary: {
@@ -431,7 +431,8 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
       chain: 'Solana',
       typeLabel: 'Typ',
       type: 'Token użytkowy',
-      typeNote: 'Czysty token użytkowy, a nie produkt inwestycyjny — nie ma obietnicy zysku.',
+      typeNote:
+        'Czysty token użytkowy, a nie produkt inwestycyjny — nie ma obietnicy zysku. D.FAITH istnieje wyłącznie po to, aby podziękować lojalnym fanom za ich zaangażowanie i dać im realny udział w projekcie. Nie jest sprzedawany w celu finansowania produkcji muzyki ani innych kosztów.',
       usesHeading: 'Do czego można wykorzystać D.FAITH?',
       uses: [
         'Wydać w sklepie D.FAITH na ekskluzywne treści i cyfrowe kolekcjonerki',
@@ -441,10 +442,9 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
       tokenomicsHeading: 'Tokenomika',
       tokenomicsNote: 'Wartość tymczasowa — ostateczne dane zostaną opublikowane przed startem.',
       tokenomicsRows: [
-        { label: 'Pula nagród dla fanów', share: '60%', purpose: 'Wypłacana fanom w czasie poprzez questy' },
+        { label: 'Pula nagród dla fanów', share: '80%', purpose: 'Wypłacana lojalnym fanom w czasie poprzez questy — większość tokena należy do fanów' },
         { label: 'Płynność', share: '15%', purpose: 'Zapewnia stabilny, płynny rynek' },
-        { label: 'Artysta / zespół', share: '15%', purpose: 'Finansuje produkcję muzyki i dalszy rozwój' },
-        { label: 'Rezerwa dla kolejnych artystów', share: '10%', purpose: 'Na późniejsze otwarcie platformy' },
+        { label: 'Rezerwa dla kolejnych artystów', share: '5%', purpose: 'Na późniejsze otwarcie platformy' },
       ],
       noSecondToken: 'Nie ma drugiego tokena inwestycyjnego ani stakingu — model jest celowo prosty.',
     },
