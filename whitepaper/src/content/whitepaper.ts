@@ -8,6 +8,7 @@ export interface WhitepaperContent {
   nav: {
     problem: string;
     solution: string;
+    quests: string;
     token: string;
     roadmap: string;
     team: string;
@@ -38,6 +39,18 @@ export interface WhitepaperContent {
   steps: {
     heading: string;
     items: { title: string; text: string }[];
+  };
+  quests: {
+    heading: string;
+    intro: string;
+    platformsHeading: string;
+    platforms: string[];
+    platformsNote: string;
+    typesHeading: string;
+    types: { title: string; text: string }[];
+    shardsHeading: string;
+    shardsIntro: string;
+    shardsBullets: string[];
   };
   token: {
     heading: string;
@@ -108,6 +121,7 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
     nav: {
       problem: 'Problem',
       solution: 'Lösung',
+      quests: 'Quests',
       token: 'Token',
       roadmap: 'Roadmap',
       team: 'Team',
@@ -159,8 +173,32 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
         { title: 'Kreislauf', text: 'Mehr Belohnung führt zu mehr Engagement, mehr Reichweite und mehr neuen Fans.' },
       ],
     },
+    quests: {
+      heading: '4. Quests im Detail',
+      intro: 'Quests sind das Herzstück von D.FAITH — jede Belohnung, jeder Shard und jedes Sammelstück kommt letztlich aus einer abgeschlossenen Quest.',
+      platformsHeading: 'Unterstützte Plattformen',
+      platforms: ['Instagram', 'TikTok', 'YouTube', 'Facebook'],
+      platformsNote: 'Zusätzlich: Streaming-Quests (z. B. Spotify) mit gemeinsamem Stream-Ziel und Vor-Ort-Check-ins bei Konzerten.',
+      typesHeading: 'Arten von Quests',
+      types: [
+        { title: 'Like & Kommentar', text: 'Einen Beitrag liken oder kommentieren.' },
+        { title: 'Teilen & Repost', text: 'Einen Beitrag teilen oder reposten.' },
+        { title: 'Story & Direktnachricht', text: 'Eine Story-Erwähnung posten oder eine Direktnachricht senden.' },
+        { title: 'Geheimer Code', text: 'Einen versteckten Code in einem Video oder Livestream finden und eingeben.' },
+        { title: 'Eigener Fan-Post', text: 'Einen eigenen Beitrag mit vorgegebenem Hashtag oder Erwähnung veröffentlichen.' },
+        { title: 'Streaming-Ziele & Konzerte', text: 'Gemeinsam ein Streaming-Ziel erreichen oder bei einem Konzert vor Ort einchecken.' },
+      ],
+      shardsHeading: 'Shards & Sammelstücke',
+      shardsIntro:
+        'Manche Quests haben zusätzlich eine Chance, einen „Shard“ fallen zu lassen (Standard rund 20 %, vom Künstler einstellbar) — ähnlich einem Gewinnlos. Konzert-Check-ins, Gewinnspiele und Top-Platzierungen im Leaderboard geben garantierte Shards.',
+      shardsBullets: [
+        'Jeder Shard lässt sich in ein zufälliges Sammelstück eintauschen — sechs Seltenheitsstufen von Common bis Mythic',
+        'Zehn Sammelstücke derselben Stufe lassen sich zu einem der nächsthöheren Stufe verschmelzen',
+        'Höhere Seltenheit schaltet spürbare Boni frei, z. B. mehr REP, mehr D.FAITH-Credits oder eine höhere Shard-Chance',
+      ],
+    },
     token: {
-      heading: '4. Der D.FAITH-Token',
+      heading: '5. Der D.FAITH-Token',
       chainLabel: 'Blockchain',
       chain: 'Solana',
       typeLabel: 'Typ',
@@ -190,7 +228,7 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
         'Es gibt kein zweites Investment-Token und kein Staking — das Modell wurde bewusst einfach gehalten.',
     },
     reputation: {
-      heading: '5. Reputation, Level & Leaderboard',
+      heading: '6. Reputation, Level & Leaderboard',
       intro: 'Jede Quest bringt Reputationspunkte (REP). REP entscheidet über das Level eines Fans.',
       bullets: [
         'Mehrere Level-Stufen, vom Neueinsteiger bis zur Fan-Legende',
@@ -200,15 +238,14 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
       ],
     },
     shop: {
-      heading: '6. Shop, Sammelstücke & Marktplatz',
+      heading: '7. Shop & Marktplatz',
       items: [
         { title: 'Shop', text: 'Fans kaufen limitierte Song-NFTs direkt von Dawid Faith — jeder Song hat eine vom Künstler festgelegte Auflage, jede Kopie ist einzeln nummeriert.' },
-        { title: 'Sammelstücke', text: 'Fans sammeln „Shards“ durch Quests, Gewinnspiele und Konzertbesuche und verschmelzen 10 Shards zu einem zufälligen Sammelstück — sechs Seltenheitsstufen von Common bis Mythic, jede mit eigenen Boni.' },
-        { title: 'Marktplatz', text: 'Song-NFTs und Sammelstücke lassen sich unter Fans weiterverkaufen. Dawid Faith erhält automatisch 5 % von jedem Weiterverkauf.' },
+        { title: 'Marktplatz', text: 'Song-NFTs und Sammelstücke (siehe Kapitel 4) lassen sich unter Fans weiterverkaufen. Dawid Faith erhält automatisch 5 % von jedem Weiterverkauf.' },
       ],
     },
     tech: {
-      heading: '7. Technologie',
+      heading: '8. Technologie',
       bullets: [
         { title: 'Solana', text: 'Sehr niedrige Transaktionskosten und schnelle Bestätigungen — ideal für viele kleine Belohnungen.' },
         { title: 'Automatische Wallet', text: 'Jeder Fan bekommt beim ersten Login automatisch eine eigene Wallet, ganz ohne Vorwissen.' },
@@ -216,7 +253,7 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
       ],
     },
     roadmap: {
-      heading: '8. Roadmap',
+      heading: '9. Roadmap',
       phases: [
         { title: 'Fundament', status: 'Abgeschlossen', text: 'Konzept, App-Entwicklung, erste Quests live, Wallet-Integration.' },
         { title: 'Community-Wachstum', status: 'Aktuell', text: 'Ausbau der Quests über Instagram, TikTok, YouTube und Facebook, Level-System, Shop und Sammelstücke live.' },
@@ -225,16 +262,16 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
       ],
     },
     team: {
-      heading: '9. Team',
+      heading: '10. Team',
       name: 'Dawid Faith',
       bio: 'Musiker und Gründer von D.FAITH. Aus der eigenen Erfahrung als unabhängiger Künstler heraus entwickelt, um Fans direkt und fair am eigenen Erfolg zu beteiligen.',
     },
     risk: {
-      heading: '10. Risikohinweis',
+      heading: '11. Risikohinweis',
       text: 'D.FAITH-Token sind Utility-Token ohne Renditeversprechen. Der Wert von Kryptowährungen kann stark schwanken. Man sollte nur Zeit und Engagement investieren, die man auch ohne finanzielle Gegenleistung bereit wäre zu geben.',
     },
     conclusion: {
-      heading: '11. Fazit',
+      heading: '12. Fazit',
       text: 'D.FAITH macht aus Fan-Engagement etwas Greifbares: Wer Dawid Faith unterstützt, wird direkt belohnt — einfach, transparent und ohne Krypto-Vorwissen.',
     },
     footer: {
@@ -253,6 +290,7 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
     nav: {
       problem: 'Problem',
       solution: 'Solution',
+      quests: 'Quests',
       token: 'Token',
       roadmap: 'Roadmap',
       team: 'Team',
@@ -303,8 +341,32 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
         { title: 'The loop', text: 'More reward drives more engagement, more reach and more new fans.' },
       ],
     },
+    quests: {
+      heading: '4. Quests in Detail',
+      intro: 'Quests are the heart of D.FAITH — every reward, every shard and every collectible ultimately comes from a completed quest.',
+      platformsHeading: 'Supported platforms',
+      platforms: ['Instagram', 'TikTok', 'YouTube', 'Facebook'],
+      platformsNote: 'Plus: streaming quests (e.g. Spotify) with a shared stream goal, and in-person check-ins at concerts.',
+      typesHeading: 'Types of quests',
+      types: [
+        { title: 'Like & comment', text: 'Like or comment on a post.' },
+        { title: 'Share & repost', text: 'Share or repost a post.' },
+        { title: 'Story & direct message', text: 'Post a story mention or send a direct message.' },
+        { title: 'Secret code', text: 'Find and enter a hidden code in a video or livestream.' },
+        { title: 'Your own fan post', text: 'Publish your own post with a required hashtag or mention.' },
+        { title: 'Streaming goals & concerts', text: 'Help reach a shared streaming goal, or check in at a concert.' },
+      ],
+      shardsHeading: 'Shards & collectibles',
+      shardsIntro:
+        'Some quests also have a chance to drop a "Shard" (around 20% by default, adjustable by the artist) — like a raffle ticket. Concert check-ins, giveaways and top leaderboard ranks grant guaranteed shards.',
+      shardsBullets: [
+        'Every shard can be traded for one random collectible — six rarity tiers from Common to Mythic',
+        'Ten collectibles of the same tier can be fused into one of the next tier up',
+        'Higher rarity unlocks real bonuses, such as more REP, more D.FAITH credits, or a higher shard chance',
+      ],
+    },
     token: {
-      heading: '4. The D.FAITH Token',
+      heading: '5. The D.FAITH Token',
       chainLabel: 'Blockchain',
       chain: 'Solana',
       typeLabel: 'Type',
@@ -333,7 +395,7 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
       noSecondToken: 'There is no second investment token and no staking — the model is kept deliberately simple.',
     },
     reputation: {
-      heading: '5. Reputation, Levels & Leaderboard',
+      heading: '6. Reputation, Levels & Leaderboard',
       intro: 'Every quest earns reputation points (REP). REP determines a fan’s level.',
       bullets: [
         'Multiple level tiers, from newcomer to fan legend',
@@ -343,15 +405,14 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
       ],
     },
     shop: {
-      heading: '6. Shop, Collectibles & Marketplace',
+      heading: '7. Shop & Marketplace',
       items: [
         { title: 'Shop', text: 'Fans buy limited song NFTs directly from Dawid Faith — each song has an edition size set by the artist, and every copy is individually numbered.' },
-        { title: 'Collectibles', text: 'Fans collect "Shards" through quests, giveaways and concert visits, and fuse 10 Shards into a random collectible — six rarity tiers from Common to Mythic, each with its own bonuses.' },
-        { title: 'Marketplace', text: 'Song NFTs and collectibles can be resold between fans. Dawid Faith automatically earns 5% on every resale.' },
+        { title: 'Marketplace', text: 'Song NFTs and collectibles (see chapter 4) can be resold between fans. Dawid Faith automatically earns 5% on every resale.' },
       ],
     },
     tech: {
-      heading: '7. Technology',
+      heading: '8. Technology',
       bullets: [
         { title: 'Solana', text: 'Very low transaction fees and fast confirmations — ideal for many small rewards.' },
         { title: 'Automatic wallet', text: 'Every fan automatically gets their own wallet on first login, no prior knowledge needed.' },
@@ -359,7 +420,7 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
       ],
     },
     roadmap: {
-      heading: '8. Roadmap',
+      heading: '9. Roadmap',
       phases: [
         { title: 'Foundation', status: 'Completed', text: 'Concept, app development, first quests live, wallet integration.' },
         { title: 'Community growth', status: 'Current', text: 'Expanding quests across Instagram, TikTok, YouTube and Facebook; level system, shop and collectibles live.' },
@@ -368,16 +429,16 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
       ],
     },
     team: {
-      heading: '9. Team',
+      heading: '10. Team',
       name: 'Dawid Faith',
       bio: 'Musician and founder of D.FAITH. Built from his own experience as an independent artist, to give fans a direct and fair stake in his success.',
     },
     risk: {
-      heading: '10. Risk Notice',
+      heading: '11. Risk Notice',
       text: 'D.FAITH tokens are utility tokens with no promised return. The value of cryptocurrencies can fluctuate significantly. Only invest time and engagement you would be willing to give without any financial return.',
     },
     conclusion: {
-      heading: '11. Conclusion',
+      heading: '12. Conclusion',
       text: 'D.FAITH turns fan engagement into something tangible: supporting Dawid Faith gets rewarded directly — simple, transparent, and with no crypto knowledge required.',
     },
     footer: {
@@ -396,6 +457,7 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
     nav: {
       problem: 'Problem',
       solution: 'Rozwiązanie',
+      quests: 'Questy',
       token: 'Token',
       roadmap: 'Plan rozwoju',
       team: 'Zespół',
@@ -446,8 +508,32 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
         { title: 'Cykl', text: 'Więcej nagród oznacza większe zaangażowanie, większy zasięg i więcej nowych fanów.' },
       ],
     },
+    quests: {
+      heading: '4. Questy w szczegółach',
+      intro: 'Questy są sercem D.FAITH — każda nagroda, każdy Shard i każdy przedmiot kolekcjonerski pochodzi ostatecznie z ukończonego questu.',
+      platformsHeading: 'Obsługiwane platformy',
+      platforms: ['Instagram', 'TikTok', 'YouTube', 'Facebook'],
+      platformsNote: 'Dodatkowo: questy streamingowe (np. Spotify) ze wspólnym celem odtworzeń oraz check-iny na koncertach na żywo.',
+      typesHeading: 'Rodzaje questów',
+      types: [
+        { title: 'Polubienie i komentarz', text: 'Polub lub skomentuj post.' },
+        { title: 'Udostępnienie i repost', text: 'Udostępnij lub zrób repost posta.' },
+        { title: 'Relacja i wiadomość prywatna', text: 'Opublikuj wzmiankę w relacji lub wyślij wiadomość prywatną.' },
+        { title: 'Sekretny kod', text: 'Znajdź i wpisz ukryty kod w filmie lub na żywo.' },
+        { title: 'Własny post fana', text: 'Opublikuj własny post z wymaganym hashtagiem lub wzmianką.' },
+        { title: 'Cele streamingowe i koncerty', text: 'Pomóż osiągnąć wspólny cel odtworzeń lub zamelduj się na koncercie.' },
+      ],
+      shardsHeading: 'Shardy i kolekcjonerki',
+      shardsIntro:
+        'Niektóre questy mają dodatkowo szansę na wypadnięcie „Shardu” (domyślnie około 20%, ustawiane przez artystę) — podobnie jak los na loterii. Check-iny na koncertach, konkursy i czołowe miejsca w rankingu dają gwarantowane Shardy.',
+      shardsBullets: [
+        'Każdy Shard można wymienić na losowy przedmiot kolekcjonerski — sześć poziomów rzadkości od Common do Mythic',
+        'Dziesięć przedmiotów tego samego poziomu można połączyć w jeden przedmiot poziomu wyższego',
+        'Wyższa rzadkość odblokowuje realne bonusy, np. więcej REP, więcej D.FAITH Credits lub wyższą szansę na Shard',
+      ],
+    },
     token: {
-      heading: '4. Token D.FAITH',
+      heading: '5. Token D.FAITH',
       chainLabel: 'Blockchain',
       chain: 'Solana',
       typeLabel: 'Typ',
@@ -476,7 +562,7 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
       noSecondToken: 'Nie ma drugiego tokena inwestycyjnego ani stakingu — model jest celowo prosty.',
     },
     reputation: {
-      heading: '5. Reputacja, poziomy i ranking',
+      heading: '6. Reputacja, poziomy i ranking',
       intro: 'Każdy quest przynosi punkty reputacji (REP). REP decyduje o poziomie fana.',
       bullets: [
         'Wiele poziomów — od nowicjusza po legendę fanów',
@@ -486,15 +572,14 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
       ],
     },
     shop: {
-      heading: '6. Sklep, kolekcjonerki i rynek',
+      heading: '7. Sklep i rynek',
       items: [
         { title: 'Sklep', text: 'Fani kupują limitowane NFT utworów bezpośrednio od Dawida Faitha — każdy utwór ma nakład ustalony przez artystę, a każda kopia jest indywidualnie numerowana.' },
-        { title: 'Kolekcjonerki', text: 'Fani zbierają „Shardy” poprzez questy, konkursy i udział w koncertach, a 10 Shardów można połączyć w losowy kolekcjonerski przedmiot — sześć poziomów rzadkości od Common do Mythic, każdy z własnymi bonusami.' },
-        { title: 'Rynek', text: 'NFT utworów i kolekcjonerki można odsprzedawać między fanami. Dawid Faith automatycznie otrzymuje 5% z każdej odsprzedaży.' },
+        { title: 'Rynek', text: 'NFT utworów i kolekcjonerki (patrz rozdział 4) można odsprzedawać między fanami. Dawid Faith automatycznie otrzymuje 5% z każdej odsprzedaży.' },
       ],
     },
     tech: {
-      heading: '7. Technologia',
+      heading: '8. Technologia',
       bullets: [
         { title: 'Solana', text: 'Bardzo niskie opłaty transakcyjne i szybkie potwierdzenia — idealne do wielu małych nagród.' },
         { title: 'Automatyczny portfel', text: 'Każdy fan przy pierwszym logowaniu automatycznie otrzymuje własny portfel, bez żadnej wiedzy wstępnej.' },
@@ -502,7 +587,7 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
       ],
     },
     roadmap: {
-      heading: '8. Plan rozwoju',
+      heading: '9. Plan rozwoju',
       phases: [
         { title: 'Fundament', status: 'Zakończone', text: 'Koncepcja, rozwój aplikacji, pierwsze questy na żywo, integracja portfela.' },
         { title: 'Rozwój społeczności', status: 'Obecnie', text: 'Rozbudowa questów na Instagramie, TikToku, YouTube i Facebooku; system poziomów, sklep i kolekcjonerki na żywo.' },
@@ -511,16 +596,16 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
       ],
     },
     team: {
-      heading: '9. Zespół',
+      heading: '10. Zespół',
       name: 'Dawid Faith',
       bio: 'Muzyk i założyciel D.FAITH. Stworzone z własnego doświadczenia jako niezależny artysta, aby uczciwie i bezpośrednio włączyć fanów w swój sukces.',
     },
     risk: {
-      heading: '10. Informacja o ryzyku',
+      heading: '11. Informacja o ryzyku',
       text: 'Tokeny D.FAITH są tokenami użytkowymi bez obietnicy zysku. Wartość kryptowalut może się znacznie wahać. Warto inwestować tylko tyle czasu i zaangażowania, ile jest się gotowym dać bez żadnej finansowej rekompensaty.',
     },
     conclusion: {
-      heading: '11. Podsumowanie',
+      heading: '12. Podsumowanie',
       text: 'D.FAITH sprawia, że zaangażowanie fanów staje się namacalne: wspieranie Dawida Faitha jest bezpośrednio nagradzane — prosto, przejrzyście i bez wiedzy o kryptowalutach.',
     },
     footer: {

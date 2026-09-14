@@ -50,6 +50,7 @@ export default function WhitepaperPage() {
         <nav className="mx-auto hidden max-w-3xl gap-6 px-4 pb-3 text-sm text-zinc-500 sm:flex sm:px-6">
           <a href="#problem" className="hover:text-zinc-900">{c.nav.problem}</a>
           <a href="#solution" className="hover:text-zinc-900">{c.nav.solution}</a>
+          <a href="#quests" className="hover:text-zinc-900">{c.nav.quests}</a>
           <a href="#token" className="hover:text-zinc-900">{c.nav.token}</a>
           <a href="#roadmap" className="hover:text-zinc-900">{c.nav.roadmap}</a>
           <a href="#team" className="hover:text-zinc-900">{c.nav.team}</a>
@@ -134,6 +135,42 @@ export default function WhitepaperPage() {
               </li>
             ))}
           </ol>
+        </Section>
+
+        {/* Quests */}
+        <Section id="quests" heading={c.quests.heading}>
+          <p>{c.quests.intro}</p>
+
+          <p className="pt-2 font-semibold text-zinc-900">{c.quests.platformsHeading}</p>
+          <div className="flex flex-wrap gap-2">
+            {c.quests.platforms.map((platform) => (
+              <span
+                key={platform}
+                className="rounded-full border border-zinc-300 bg-white px-3 py-1 text-sm font-medium text-zinc-700"
+              >
+                {platform}
+              </span>
+            ))}
+          </div>
+          <p className="text-sm text-zinc-500">{c.quests.platformsNote}</p>
+
+          <p className="pt-2 font-semibold text-zinc-900">{c.quests.typesHeading}</p>
+          <div className="grid gap-4 sm:grid-cols-2">
+            {c.quests.types.map((type) => (
+              <div key={type.title} className="rounded-xl border border-zinc-200 bg-white p-4">
+                <p className="font-semibold text-zinc-900">{type.title}</p>
+                <p className="mt-1 text-sm text-zinc-600">{type.text}</p>
+              </div>
+            ))}
+          </div>
+
+          <p className="pt-2 font-semibold text-zinc-900">{c.quests.shardsHeading}</p>
+          <p>{c.quests.shardsIntro}</p>
+          <ul className="list-disc space-y-2 pl-5">
+            {c.quests.shardsBullets.map((b) => (
+              <li key={b}>{b}</li>
+            ))}
+          </ul>
         </Section>
 
         {/* Token */}
@@ -221,7 +258,7 @@ export default function WhitepaperPage() {
 
         {/* Shop */}
         <Section id="shop" heading={c.shop.heading}>
-          <div className="grid gap-4 sm:grid-cols-3">
+          <div className="grid gap-4 sm:grid-cols-2">
             {c.shop.items.map((item) => (
               <div key={item.title} className="rounded-xl border border-zinc-200 bg-white p-4">
                 <p className="font-semibold text-zinc-900">{item.title}</p>

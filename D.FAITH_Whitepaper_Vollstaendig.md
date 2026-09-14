@@ -65,7 +65,31 @@ Mehr Belohnung führt zu mehr Engagement, mehr Engagement zu mehr Reichweite, me
 
 ---
 
-## 5. Der D.FAITH-Token
+## 5. Quests im Detail
+
+Quests sind das Herzstück von D.FAITH — jede Belohnung, jeder Shard und jedes Sammelstück kommt letztlich aus einer abgeschlossenen Quest.
+
+### Unterstützte Plattformen
+Instagram, TikTok, YouTube, Facebook. Zusätzlich: Streaming-Quests (z. B. Spotify) mit gemeinsamem Stream-Ziel und Vor-Ort-Check-ins bei Konzerten.
+
+### Arten von Quests
+- **Like & Kommentar** — einen Beitrag liken oder kommentieren
+- **Teilen & Repost** — einen Beitrag teilen oder reposten
+- **Story & Direktnachricht** — eine Story-Erwähnung posten oder eine Direktnachricht senden
+- **Geheimer Code** — einen versteckten Code in einem Video oder Livestream finden und eingeben
+- **Eigener Fan-Post** — einen eigenen Beitrag mit vorgegebenem Hashtag oder Erwähnung veröffentlichen
+- **Streaming-Ziele & Konzerte** — gemeinsam ein Streaming-Ziel erreichen oder bei einem Konzert vor Ort einchecken
+
+### Shards & Sammelstücke
+Manche Quests haben zusätzlich eine Chance, einen **Shard** fallen zu lassen (Standard rund 20 %, vom Künstler einstellbar) — ähnlich einem Gewinnlos. Konzert-Check-ins, Gewinnspiele und Top-Platzierungen im Leaderboard geben garantierte Shards.
+
+- Jeder Shard lässt sich in ein zufälliges Sammelstück eintauschen — sechs Seltenheitsstufen von Common bis Mythic
+- Zehn Sammelstücke derselben Stufe lassen sich zu einem der nächsthöheren Stufe verschmelzen
+- Höhere Seltenheit schaltet spürbare Boni frei, z. B. mehr REP, mehr D.FAITH-Credits oder eine höhere Shard-Chance
+
+---
+
+## 6. Der D.FAITH-Token
 
 | | |
 |---|---|
@@ -98,7 +122,7 @@ Es gibt **kein zweites Investment-Token** (D.INVEST) und **kein Staking** — da
 
 ---
 
-## 6. Das Reputations-, Level- und Leaderboard-System
+## 7. Das Reputations-, Level- und Leaderboard-System
 
 Jede Quest bringt Reputationspunkte (REP). REP entscheidet über das Level eines Fans:
 
@@ -111,15 +135,14 @@ Damit wird nicht nur einzelnes Engagement belohnt, sondern **langfristige Treue*
 
 ---
 
-## 7. Shop, Sammelstücke & Marktplatz
+## 8. Shop & Marktplatz
 
 - **Shop:** Fans kaufen limitierte Song-NFTs direkt von Dawid Faith — jeder Song hat eine vom Künstler festgelegte Auflage, jede Kopie ist einzeln nummeriert.
-- **Sammelstücke (Collectibles):** Fans sammeln „Shards“ durch Quests, Gewinnspiele und Konzertbesuche und verschmelzen 10 Shards zu einem zufälligen Sammelstück — sechs Seltenheitsstufen von Common bis Mythic, jede mit eigenen Boni (z. B. mehr REP, mehr Credits, höhere Shard-Chance).
-- **Marktplatz:** Song-NFTs und Sammelstücke lassen sich unter Fans weiterverkaufen. Dawid Faith erhält automatisch 5 % von jedem Weiterverkauf.
+- **Marktplatz:** Song-NFTs und Sammelstücke (siehe Kapitel 5) lassen sich unter Fans weiterverkaufen. Dawid Faith erhält automatisch 5 % von jedem Weiterverkauf.
 
 ---
 
-## 8. Technologie — einfach für jeden nutzbar
+## 9. Technologie — einfach für jeden nutzbar
 
 - **Solana-Blockchain:** sehr niedrige Transaktionskosten und schnelle Bestätigungen — ideal für viele kleine Fan-Belohnungen.
 - **Automatische Wallet:** Jeder Fan bekommt beim ersten Login automatisch eine eigene Wallet. Keine Installation, keine Seed-Phrase, kein technisches Vorwissen nötig.
@@ -127,7 +150,7 @@ Damit wird nicht nur einzelnes Engagement belohnt, sondern **langfristige Treue*
 
 ---
 
-## 9. Roadmap
+## 10. Roadmap
 
 **Phase 1 — Fundament** *(abgeschlossen)*
 Konzept, App-Entwicklung, erste Quests live, Wallet-Integration.
@@ -143,18 +166,18 @@ D.FAITH wird schrittweise zu einer Plattform, die auch andere unabhängige Küns
 
 ---
 
-## 10. Team
+## 11. Team
 
 **Dawid Faith** — Musiker und Gründer von D.FAITH. Aus der eigenen Erfahrung als unabhängiger Künstler heraus entwickelt, um Fans direkt und fair am eigenen Erfolg zu beteiligen.
 
 ---
 
-## 11. Risikohinweis
+## 12. Risikohinweis
 
 D.FAITH-Token sind Utility-Token ohne Renditeversprechen. Der Wert von Kryptowährungen kann stark schwanken. Man sollte nur Zeit und Engagement investieren, die man auch ohne finanzielle Gegenleistung bereit wäre zu geben — der eigentliche Wert liegt in der Teilhabe an der Community, nicht in einer garantierten Wertsteigerung.
 
 ---
 
-## 12. Fazit
+## 13. Fazit
 
 D.FAITH macht aus Fan-Engagement etwas Greifbares: Wer Dawid Faith unterstützt, wird direkt belohnt — einfach, transparent und ohne Krypto-Vorwissen. Langfristig soll daraus ein Werkzeug werden, das jedem unabhängigen Künstler hilft, seine Community fair am eigenen Erfolg zu beteiligen.
