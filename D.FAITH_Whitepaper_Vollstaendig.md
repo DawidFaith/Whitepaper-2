@@ -98,23 +98,24 @@ Es gibt **kein zweites Investment-Token** (D.INVEST) und **kein Staking** — da
 
 ---
 
-## 6. Das Reputations- und Level-System
+## 6. Das Reputations-, Level- und Leaderboard-System
 
 Jede Quest bringt Reputationspunkte (REP). REP entscheidet über das Level eines Fans:
 
 - Es gibt mehrere Level-Stufen, vom Neueinsteiger bis zur Fan-Legende.
 - Je höher das Level, desto größer der Bonus auf zukünftige Token-Belohnungen.
 - Hohe Level schalten besondere Vorteile frei (z. B. exklusive Drops, größere Preise bei Gewinnspielen).
+- Ein Leaderboard zeigt die Top-Fans nach REP — am Quartalsende gibt es Preise für die Bestplatzierten, ohne dass ihr Rang zurückgesetzt wird.
 
 Damit wird nicht nur einzelnes Engagement belohnt, sondern **langfristige Treue** — ein Fan, der seit Monaten dabei ist, bekommt spürbar mehr als ein Gelegenheitsbesucher.
 
 ---
 
-## 7. Shop, Sammelstücke & Gewinnspiele
+## 7. Shop, Sammelstücke & Marktplatz
 
-- **Shop:** Fans tauschen D.FAITH gegen exklusive digitale Inhalte (z. B. limitierte Songs, Sammelstücke) ein.
-- **Sammelstücke (Collectibles):** Digitale, limitierte Objekte, die Fans sammeln und in ihrem Profil zeigen können.
-- **Gewinnspiele (Giveaways):** Zusätzliche Aktionen mit besonderen Preisen, oft an Level oder REP gekoppelt.
+- **Shop:** Fans kaufen limitierte Song-NFTs direkt von Dawid Faith — jeder Song hat eine vom Künstler festgelegte Auflage, jede Kopie ist einzeln nummeriert.
+- **Sammelstücke (Collectibles):** Fans sammeln „Shards“ durch Quests, Gewinnspiele und Konzertbesuche und verschmelzen 10 Shards zu einem zufälligen Sammelstück — sechs Seltenheitsstufen von Common bis Mythic, jede mit eigenen Boni (z. B. mehr REP, mehr Credits, höhere Shard-Chance).
+- **Marktplatz:** Song-NFTs und Sammelstücke lassen sich unter Fans weiterverkaufen. Dawid Faith erhält automatisch 5 % von jedem Weiterverkauf.
 
 ---
 

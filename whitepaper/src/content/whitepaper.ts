@@ -190,20 +190,21 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
         'Es gibt kein zweites Investment-Token und kein Staking — das Modell wurde bewusst einfach gehalten.',
     },
     reputation: {
-      heading: '5. Reputation & Level',
+      heading: '5. Reputation, Level & Leaderboard',
       intro: 'Jede Quest bringt Reputationspunkte (REP). REP entscheidet über das Level eines Fans.',
       bullets: [
         'Mehrere Level-Stufen, vom Neueinsteiger bis zur Fan-Legende',
         'Je höher das Level, desto größer der Bonus auf zukünftige Belohnungen',
         'Hohe Level schalten besondere Vorteile frei, z. B. exklusive Drops oder größere Gewinnspiel-Preise',
+        'Ein Leaderboard zeigt die Top-Fans nach REP — am Quartalsende gibt es Preise für die Bestplatzierten, ohne dass ihr Rang zurückgesetzt wird',
       ],
     },
     shop: {
-      heading: '6. Shop, Sammelstücke & Gewinnspiele',
+      heading: '6. Shop, Sammelstücke & Marktplatz',
       items: [
-        { title: 'Shop', text: 'Fans tauschen D.FAITH gegen exklusive digitale Inhalte ein.' },
-        { title: 'Sammelstücke', text: 'Digitale, limitierte Objekte, die Fans sammeln und zeigen können.' },
-        { title: 'Gewinnspiele', text: 'Zusätzliche Aktionen mit besonderen Preisen, oft an Level gekoppelt.' },
+        { title: 'Shop', text: 'Fans kaufen limitierte Song-NFTs direkt von Dawid Faith — jeder Song hat eine vom Künstler festgelegte Auflage, jede Kopie ist einzeln nummeriert.' },
+        { title: 'Sammelstücke', text: 'Fans sammeln „Shards“ durch Quests, Gewinnspiele und Konzertbesuche und verschmelzen 10 Shards zu einem zufälligen Sammelstück — sechs Seltenheitsstufen von Common bis Mythic, jede mit eigenen Boni.' },
+        { title: 'Marktplatz', text: 'Song-NFTs und Sammelstücke lassen sich unter Fans weiterverkaufen. Dawid Faith erhält automatisch 5 % von jedem Weiterverkauf.' },
       ],
     },
     tech: {
@@ -332,20 +333,21 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
       noSecondToken: 'There is no second investment token and no staking — the model is kept deliberately simple.',
     },
     reputation: {
-      heading: '5. Reputation & Levels',
+      heading: '5. Reputation, Levels & Leaderboard',
       intro: 'Every quest earns reputation points (REP). REP determines a fan’s level.',
       bullets: [
         'Multiple level tiers, from newcomer to fan legend',
         'The higher the level, the bigger the bonus on future rewards',
         'High levels unlock special perks, such as exclusive drops or bigger giveaway prizes',
+        'A leaderboard shows the top fans by REP — at the end of each quarter, top-ranked fans win prizes without their rank ever resetting',
       ],
     },
     shop: {
-      heading: '6. Shop, Collectibles & Giveaways',
+      heading: '6. Shop, Collectibles & Marketplace',
       items: [
-        { title: 'Shop', text: 'Fans exchange D.FAITH for exclusive digital content.' },
-        { title: 'Collectibles', text: 'Digital, limited items that fans can collect and showcase.' },
-        { title: 'Giveaways', text: 'Extra campaigns with special prizes, often tied to level.' },
+        { title: 'Shop', text: 'Fans buy limited song NFTs directly from Dawid Faith — each song has an edition size set by the artist, and every copy is individually numbered.' },
+        { title: 'Collectibles', text: 'Fans collect "Shards" through quests, giveaways and concert visits, and fuse 10 Shards into a random collectible — six rarity tiers from Common to Mythic, each with its own bonuses.' },
+        { title: 'Marketplace', text: 'Song NFTs and collectibles can be resold between fans. Dawid Faith automatically earns 5% on every resale.' },
       ],
     },
     tech: {
@@ -474,20 +476,21 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
       noSecondToken: 'Nie ma drugiego tokena inwestycyjnego ani stakingu — model jest celowo prosty.',
     },
     reputation: {
-      heading: '5. Reputacja i poziomy',
+      heading: '5. Reputacja, poziomy i ranking',
       intro: 'Każdy quest przynosi punkty reputacji (REP). REP decyduje o poziomie fana.',
       bullets: [
         'Wiele poziomów — od nowicjusza po legendę fanów',
         'Im wyższy poziom, tym większy bonus do przyszłych nagród',
         'Wysokie poziomy odblokowują specjalne korzyści, np. ekskluzywne dropy lub większe nagrody w konkursach',
+        'Ranking pokazuje najlepszych fanów według REP — na koniec każdego kwartału najlepsi otrzymują nagrody, a ich pozycja nigdy nie jest resetowana',
       ],
     },
     shop: {
-      heading: '6. Sklep, kolekcjonerki i konkursy',
+      heading: '6. Sklep, kolekcjonerki i rynek',
       items: [
-        { title: 'Sklep', text: 'Fani wymieniają D.FAITH na ekskluzywne treści cyfrowe.' },
-        { title: 'Kolekcjonerki', text: 'Cyfrowe, limitowane przedmioty, które fani mogą zbierać i pokazywać.' },
-        { title: 'Konkursy', text: 'Dodatkowe akcje ze specjalnymi nagrodami, często powiązane z poziomem.' },
+        { title: 'Sklep', text: 'Fani kupują limitowane NFT utworów bezpośrednio od Dawida Faitha — każdy utwór ma nakład ustalony przez artystę, a każda kopia jest indywidualnie numerowana.' },
+        { title: 'Kolekcjonerki', text: 'Fani zbierają „Shardy” poprzez questy, konkursy i udział w koncertach, a 10 Shardów można połączyć w losowy kolekcjonerski przedmiot — sześć poziomów rzadkości od Common do Mythic, każdy z własnymi bonusami.' },
+        { title: 'Rynek', text: 'NFT utworów i kolekcjonerki można odsprzedawać między fanami. Dawid Faith automatycznie otrzymuje 5% z każdej odsprzedaży.' },
       ],
     },
     tech: {
