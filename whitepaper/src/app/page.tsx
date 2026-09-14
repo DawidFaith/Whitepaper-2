@@ -7,6 +7,7 @@ import { whitepaperContent } from '../content/whitepaper';
 import LanguageSwitcher from '../components/LanguageSwitcher';
 
 const APP_URL = 'https://www.dawidfaith.de';
+const DFAITH_MINT = '4Ri9EJJW1L3TGjVmHyYGQgXsmx8mnhqnkwYsAB5e8qTW';
 const INSTAGRAM_URLS: Record<'de' | 'en' | 'pl', string> = {
   de: 'https://www.instagram.com/dawidfaith_germany',
   en: 'https://www.instagram.com/dawidfaith_germany',
@@ -137,7 +138,7 @@ export default function WhitepaperPage() {
 
         {/* Token */}
         <Section id="token" heading={c.token.heading}>
-          <div className="grid gap-4 sm:grid-cols-2">
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
             <div className="rounded-xl border border-zinc-200 bg-white p-4">
               <p className="text-xs font-semibold uppercase tracking-wide text-zinc-400">
                 {c.token.chainLabel}
@@ -150,7 +151,37 @@ export default function WhitepaperPage() {
               </p>
               <p className="text-lg font-bold text-zinc-900">{c.token.type}</p>
             </div>
+            <div className="rounded-xl border border-zinc-200 bg-white p-4">
+              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-400">
+                {c.token.symbolLabel}
+              </p>
+              <p className="text-lg font-bold text-zinc-900">{c.token.symbol}</p>
+            </div>
+            <div className="rounded-xl border border-zinc-200 bg-white p-4">
+              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-400">
+                {c.token.supplyLabel}
+              </p>
+              <p className="text-lg font-bold text-zinc-900">{c.token.supply}</p>
+            </div>
           </div>
+          <p className="text-sm text-zinc-500">{c.token.supplyNote}</p>
+          <p className="text-sm text-zinc-500">
+            {c.token.contractLabel}:{' '}
+            <a
+              href={`https://solscan.io/token/${DFAITH_MINT}`}
+              className="break-all font-mono text-zinc-700 underline hover:text-zinc-900"
+            >
+              {DFAITH_MINT}
+            </a>{' '}
+            (
+            <a
+              href={`https://solscan.io/token/${DFAITH_MINT}`}
+              className="underline hover:text-zinc-900"
+            >
+              {c.token.contractLinkText}
+            </a>
+            )
+          </p>
           <p className="text-sm text-zinc-500">{c.token.typeNote}</p>
 
           <p className="pt-2 font-semibold text-zinc-900">{c.token.usesHeading}</p>

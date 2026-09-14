@@ -45,6 +45,13 @@ export interface WhitepaperContent {
     chain: string;
     typeLabel: string;
     type: string;
+    symbolLabel: string;
+    symbol: string;
+    supplyLabel: string;
+    supply: string;
+    supplyNote: string;
+    contractLabel: string;
+    contractLinkText: string;
     typeNote: string;
     usesHeading: string;
     uses: string[];
@@ -158,6 +165,13 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
       chain: 'Solana',
       typeLabel: 'Typ',
       type: 'Utility-Token',
+      symbolLabel: 'Symbol',
+      symbol: 'DFAITH',
+      supplyLabel: 'Supply',
+      supply: '1.000.000',
+      supplyNote: 'Max. Supply = umlaufende Supply (2 Dezimalstellen) — es wird nichts nachträglich neu geprägt.',
+      contractLabel: 'Contract-Adresse (Solana)',
+      contractLinkText: 'Auf Solscan ansehen',
       typeNote:
         'Ein reiner Nutz-Token, kein Anlageprodukt — es gibt kein Renditeversprechen. D.FAITH dient allein dazu, treuen Fans für ihr Engagement zu danken und ihnen einen echten Anteil am Projekt zu geben. Er wird nicht verkauft, um Musikproduktion oder andere Kosten zu finanzieren.',
       usesHeading: 'Wofür kann man D.FAITH nutzen?',
@@ -167,11 +181,10 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
         'Sammeln, um im Reputations-Level aufzusteigen und bessere Belohnungen freizuschalten',
       ],
       tokenomicsHeading: 'Tokenomics',
-      tokenomicsNote: 'Platzhalter — finale Werte werden vor dem Launch veröffentlicht.',
+      tokenomicsNote: 'Aktueller Stand — ändert sich, sobald weitere Token aus dem Projekt-Wallet an Fans ausgeschüttet werden.',
       tokenomicsRows: [
-        { label: 'Fan-Rewards-Pool', share: '80 %', purpose: 'Wird über Zeit durch Quests an treue Fans ausgeschüttet — der Großteil gehört den Fans' },
-        { label: 'Liquidität', share: '15 %', purpose: 'Sorgt für einen stabilen, handelbaren Markt' },
-        { label: 'Reserve für weitere Künstler', share: '5 %', purpose: 'Für die spätere Öffnung der Plattform' },
+        { label: 'Projekt-Wallet (Fan-Rewards)', share: '85 %', purpose: 'Wird schrittweise über Zeit durch Quests an treue Fans ausgeschüttet' },
+        { label: 'Liquidität (DEX)', share: '15 %', purpose: 'Aktuell in einer dezentralen Börse für einen handelbaren Markt' },
       ],
       noSecondToken:
         'Es gibt kein zweites Investment-Token und kein Staking — das Modell wurde bewusst einfach gehalten.',
@@ -295,6 +308,13 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
       chain: 'Solana',
       typeLabel: 'Type',
       type: 'Utility token',
+      symbolLabel: 'Symbol',
+      symbol: 'DFAITH',
+      supplyLabel: 'Supply',
+      supply: '1,000,000',
+      supplyNote: 'Max supply = circulating supply (2 decimals) — nothing more will ever be minted.',
+      contractLabel: 'Contract address (Solana)',
+      contractLinkText: 'View on Solscan',
       typeNote:
         'A pure utility token, not an investment product — no return is promised. D.FAITH exists solely to thank loyal fans for their engagement and give them a real share in the project. It is not sold to fund music production or other costs.',
       usesHeading: 'What can you use D.FAITH for?',
@@ -304,11 +324,10 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
         'Collect it to level up in the reputation system and unlock better rewards',
       ],
       tokenomicsHeading: 'Tokenomics',
-      tokenomicsNote: 'Placeholder — final figures will be published before launch.',
+      tokenomicsNote: 'Current status — changes as more tokens are distributed to fans from the project wallet.',
       tokenomicsRows: [
-        { label: 'Fan rewards pool', share: '80%', purpose: 'Distributed to loyal fans over time through quests — most of the token belongs to the fans' },
-        { label: 'Liquidity', share: '15%', purpose: 'Keeps the market stable and tradeable' },
-        { label: 'Reserve for future artists', share: '5%', purpose: 'For the later opening of the platform' },
+        { label: 'Project wallet (fan rewards)', share: '85%', purpose: 'Distributed to loyal fans over time through quests' },
+        { label: 'Liquidity (DEX)', share: '15%', purpose: 'Currently on a decentralized exchange to keep the market tradeable' },
       ],
       noSecondToken: 'There is no second investment token and no staking — the model is kept deliberately simple.',
     },
@@ -431,6 +450,13 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
       chain: 'Solana',
       typeLabel: 'Typ',
       type: 'Token użytkowy',
+      symbolLabel: 'Symbol',
+      symbol: 'DFAITH',
+      supplyLabel: 'Podaż',
+      supply: '1 000 000',
+      supplyNote: 'Maksymalna podaż = podaż w obiegu (2 miejsca dziesiętne) — nic więcej nie zostanie dobite.',
+      contractLabel: 'Adres kontraktu (Solana)',
+      contractLinkText: 'Zobacz na Solscan',
       typeNote:
         'Czysty token użytkowy, a nie produkt inwestycyjny — nie ma obietnicy zysku. D.FAITH istnieje wyłącznie po to, aby podziękować lojalnym fanom za ich zaangażowanie i dać im realny udział w projekcie. Nie jest sprzedawany w celu finansowania produkcji muzyki ani innych kosztów.',
       usesHeading: 'Do czego można wykorzystać D.FAITH?',
@@ -440,11 +466,10 @@ export const whitepaperContent: Record<Language, WhitepaperContent> = {
         'Zbierać, aby awansować w systemie reputacji i odblokować lepsze nagrody',
       ],
       tokenomicsHeading: 'Tokenomika',
-      tokenomicsNote: 'Wartość tymczasowa — ostateczne dane zostaną opublikowane przed startem.',
+      tokenomicsNote: 'Aktualny stan — zmienia się w miarę wypłacania kolejnych tokenów fanom z portfela projektu.',
       tokenomicsRows: [
-        { label: 'Pula nagród dla fanów', share: '80%', purpose: 'Wypłacana lojalnym fanom w czasie poprzez questy — większość tokena należy do fanów' },
-        { label: 'Płynność', share: '15%', purpose: 'Zapewnia stabilny, płynny rynek' },
-        { label: 'Rezerwa dla kolejnych artystów', share: '5%', purpose: 'Na późniejsze otwarcie platformy' },
+        { label: 'Portfel projektu (nagrody dla fanów)', share: '85%', purpose: 'Wypłacany stopniowo lojalnym fanom w czasie poprzez questy' },
+        { label: 'Płynność (DEX)', share: '15%', purpose: 'Obecnie na zdecentralizowanej giełdzie dla płynnego rynku' },
       ],
       noSecondToken: 'Nie ma drugiego tokena inwestycyjnego ani stakingu — model jest celowo prosty.',
     },

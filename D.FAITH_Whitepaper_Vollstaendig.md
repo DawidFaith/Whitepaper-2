@@ -71,6 +71,11 @@ Mehr Belohnung führt zu mehr Engagement, mehr Engagement zu mehr Reichweite, me
 |---|---|
 | **Blockchain** | Solana |
 | **Typ** | Utility-Token (reiner Nutz-Token, kein Anlageprodukt) |
+| **Symbol** | DFAITH |
+| **Name** | D.FAITH |
+| **Dezimalstellen** | 2 |
+| **Max. / umlaufende Supply** | 1.000.000 (identisch — es wird nichts nachträglich neu geprägt) |
+| **Contract-Adresse (Solana)** | `4Ri9EJJW1L3TGjVmHyYGQgXsmx8mnhqnkwYsAB5e8qTW` ([Solscan](https://solscan.io/token/4Ri9EJJW1L3TGjVmHyYGQgXsmx8mnhqnkwYsAB5e8qTW)) |
 | **Funktion** | Belohnung für Fan-Engagement, einlösbar im Shop, handelbar |
 
 D.FAITH ist bewusst **kein Investment-Produkt** und verspricht keine Rendite. Es ist eine Belohnungswährung: Man verdient sie durch aktive Unterstützung des Künstlers und gibt sie für Dinge aus, die einem etwas wert sind. D.FAITH dient allein dazu, treuen Fans für ihr Engagement zu danken und ihnen einen echten Anteil am Projekt zu geben — er wird nicht verkauft, um Musikproduktion oder andere Kosten zu finanzieren.
@@ -82,13 +87,12 @@ D.FAITH ist bewusst **kein Investment-Produkt** und verspricht keine Rendite. Es
 
 ### Tokenomics
 
-> Die folgenden Werte sind Platzhalter und werden vor dem finalen Launch festgelegt und veröffentlicht.
+> Aktueller Stand — ändert sich, sobald weitere Token aus dem Projekt-Wallet an Fans ausgeschüttet werden.
 
 | Kategorie | Anteil | Zweck |
 |---|---|---|
-| Fan-Rewards-Pool | 80 % | Wird über Zeit durch Quests an treue Fans ausgeschüttet — der Großteil gehört den Fans |
-| Liquidität | 15 % | Sorgt für einen stabilen, handelbaren Markt |
-| Reserve für weitere Künstler | 5 % | Für die spätere Öffnung der Plattform (siehe Kapitel 8) |
+| Projekt-Wallet (Fan-Rewards) | 85 % | Wird schrittweise über Zeit durch Quests an treue Fans ausgeschüttet |
+| Liquidität (DEX) | 15 % | Aktuell in einer dezentralen Börse für einen handelbaren Markt |
 
 Es gibt **kein zweites Investment-Token** (D.INVEST) und **kein Staking** — das Modell wurde bewusst vereinfacht, damit jeder es auf Anhieb versteht.
 
